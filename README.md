@@ -1,2 +1,23 @@
 # roldan-butterfly-logo
 fly high like a butterfly
+
+#include <iostream>
+
+int main() {
+    std::cout << R"(
+      .==-.                   .-==.
+       \()8`-._  `.   .'  _.-'8()/
+       (88"   ::.  \./  .::   "88)
+        \_.'`-::::.(#).::::-'`._/
+          `._... .q(_)p. ..._.'
+            ""-..-'|=|`-..-""
+            .""' .'|=|`. `"".
+          ,':8(o)./|=|\.(o)8:`.
+         (O :8 ::/ \_/ \:: 8: O)
+          \O `::/       \::' O/
+           ""--'         `--""
+    )" << std::endl;
+
+    std::cout << "Beautiful Butterfly!" << std::endl;
+    return 0;
+}
